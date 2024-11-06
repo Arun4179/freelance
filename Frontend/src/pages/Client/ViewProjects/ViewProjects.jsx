@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import profile from "../../../assets/images/profile.svg";
 import NewTask from "../../../assets/images/NewTask.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from "./ViewprojectClient.json"; 
 import SubHeader from "../SubHeader/SubHeader";
 
@@ -71,8 +71,9 @@ function ClientViewProjects() {
           <div className="flex  flex-col items-center">
             <img src={profile} alt="Profile" className="rounded-full" hight="60" width="60" />
             <div className="text-2xl font-bold mt-2">Alex</div>
-            <div className='flex gap-2'>
-            <button className="text-orange-500 hover:underline">View Profile  </button></div>
+            <div className='flex gap-2'><Link to="/ClientProfile">
+            <button className="text-orange-500 hover:underline">Edit Profile  </button>
+            </Link></div>
           </div>
 
           {/* Clients Section */}
