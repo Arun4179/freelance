@@ -191,7 +191,7 @@ function PostProject() {
             {/* Save Button */}
             <div className="text-right mt-4">
               <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-300 focus:ring-2 focus:ring-orange-500">
-                <Link to="/ClientViewProjects">
+                <Link to="/ClientDashboard">
                 Upload Project
                 </Link>
               </button>
