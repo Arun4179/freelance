@@ -17,10 +17,6 @@ import LiveChat from '../components/live chat/liveChat';
 import Login from '../components/login/login';
 import Signup from '../components/SignUp/SignUp';
 import GetInfo from '../components/GetInfo/signIn';
-import FRLogin from '../pages/Freelancer/login/login';
-import FRSignup from '../pages/Freelancer/SignUp/SignUp';
-import ClientSignup from '../pages/Client/SignUp/SignUp';
-import ClientLogin from '../pages/Client/login/login';
 import FreelancerPage from '../components/FRLists/FRLists';
 import ViewProjects from '../pages/Freelancer/ViewProjects/ViewProjects';
 import ClientViewProjects from '../pages/Client/ViewProjects/ViewProjects';
@@ -58,10 +54,6 @@ function App() {
         <Route path="/LiveChat" element={ <LiveChat /> } />
         <Route path="/Login" element={<Login /> } />
         <Route path="/SignUp" element={<Signup />} />
-        <Route path="/FRLogin" element={<FRLogin /> } />
-        <Route path="/FRSignup" element={<FRSignup /> } />
-        <Route path="/ClientLogin" element={<ClientLogin />} />
-        <Route path="/ClientSignup" element={<ClientSignup />} />
         <Route path="/FreelancerPage" element={<FreelancerPage />} />
         <Route path="/ViewProjects" element={ <ViewProjects /> } />
         <Route path="/FLViewProfile" element={<FLViewProfile />} />

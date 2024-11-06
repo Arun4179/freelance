@@ -44,11 +44,9 @@ function Signup() {
     setIsSubmitted(true);
     setErrorMessage("");
 
-    // Add logic to submit form data to backend
     console.log("Form Data Submitted: ", formData);
-
-    // Example: Redirect to login page after successful signup
-    navigate("/login");
+    
+    navigate("/Login");
   };
 
   return (
