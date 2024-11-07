@@ -75,7 +75,7 @@ function Navbar() {
                     
                     {/* Conditional "Projects" Link based on role */}
                     <Link
-                        to={userRole === "freelancer" ? "/freelancer-projects" : "/client-projects"}
+                        to="/JobsListPage"
                         className="text-1xl font-semibold hover:text-orange-500 cursor-pointer duration-200"
                     >
                         Projects

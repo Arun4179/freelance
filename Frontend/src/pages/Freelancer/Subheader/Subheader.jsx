@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate,Link } from 'react-router-dom'; // Import useNavigate
 import FLNotifyBell from '../Subheader/Notification/NotifyBell/NotifyBell';
 
 function FLSubHeader() {
@@ -93,9 +93,11 @@ function FLSubHeader() {
               >
                 View Projects
               </button>
+              <Link to="/">
               <button className="block w-full text-left px-4 py-2 hover:bg-gray-100">
                 Log Out
               </button>
+              </Link>
             </div>
           )}
         </div>
